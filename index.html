@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Import Markdown editor and parser -->
+		<link rel="stylesheet" href="markdown/easymde.min.css">
+		<script src="markdown/easymde.min.js"></script>
+		<script src="markdown/remarkable.js"></script>
+	</head>
+	<body>
+		<textarea id="MarkdownEditor"></textarea>
+		<button onclick="saveHTML(easymde.value())">Save HTML</button>
+
+		<!-- jQuery and MDE scripts -->
+		<script src="scripts/jquery.min.js"></script>
+		<script src="scripts/filesaver.min.js"></script>
+		<script src="scripts/mde.parser.js"></script>
+		<script src="scripts/mde.file.js"></script>
+	</body>
+</html>
